@@ -51,6 +51,10 @@ header nav a.active {
   background-color: var(--primary);
 }
 
+.blogcard {
+  background-color: black;
+}
+
 /* page content */
 
 

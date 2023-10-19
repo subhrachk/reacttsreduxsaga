@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
-import { useAppDispath, useAppSelector } from '../../hook';
+import { useAppDispatch, useAppSelector } from '../../hook';
 import { SelectCounter, decrementCounter, incrementCounter } from '../Shared/Store/Counter/CounterSlice';
 import { Button } from '@mui/material';
 
 export const Counter = () => {
-  const dispatch = useAppDispath();
+  const dispatch = useAppDispatch();
 
   const count$ = useAppSelector(SelectCounter);
   return (

@@ -3,7 +3,7 @@ import { initialState } from "./CounterState";
 import { RootState } from "../../../../store";
 
 const counterSlice = createSlice({
-  name: "Counter",
+  name: "counter",
   initialState,
   reducers: {
     incrementCounter: (state, action: PayloadAction<number>) => {
